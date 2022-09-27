@@ -1,0 +1,250 @@
+
+
+
+
+#i1,#i2,#i3,#i4,#i5,#i6,#i7,#i8,
+#i9,#i10,#i11,#i12,#i13,#i14,#i15,#i16,#i17,#i18,#i19{
+    display: none;
+}
+
+
+.customization{
+    /* background-color: black; */
+		margin: 0 auto;
+		margin-top: 100px;
+		position: absolute;
+		width: 70%;
+        top: 10%;
+        right: 0;
+		height: 0;
+		padding-bottom: 38%;
+	    user-select: none;
+
+	}
+
+	.customization .slide_img{
+		position: absolute;
+		width: 100%;;
+		height: 100%;
+	}
+	.customization .slide_img img{
+        padding-top: 40px;
+		width: inherit;
+		height: inherit;
+	}
+
+
+
+.customization #nav_slide{
+	width: 100%;
+	bottom: 12%;
+	height: 11px;
+	position: absolute;
+	text-align: center;
+	z-index: 20;
+	cursor: default;
+}
+
+#nav_slide .dots{
+	top: -5px;
+	width: 28px;
+	height: 28px;
+	margin: 0 4px;
+	/* position: relative; */
+	border-radius: 50%;
+    /* border: 1.5px solid rgba(0,0,0,0) ; */
+	display: inline-block;
+	/* background-color: rgba(255, 255, 255, 0.5); */
+	transition: .4s;
+}
+
+
+#i1:checked  ~  #nav_slide #dot1{
+    box-shadow: 0px 0px 12px 5px rgb(118, 209, 210);
+}
+#i2:checked  ~  #nav_slide #dot2{
+    box-shadow: 0px 0px 12px 5px rgb(118, 209, 210);
+}
+#i3:checked  ~  #nav_slide #dot3{
+    box-shadow: 0px 0px 12px 5px rgb(215, 173, 136);
+}
+#i4:checked  ~  #nav_slide #dot4{
+    box-shadow: 0px 0px 12px 5px rgb(238, 59, 62);
+}
+#i5:checked  ~  #nav_slide #dot5{
+    box-shadow: 0px 0px 12px 5px rgb(168, 186, 201);
+}
+#i6:checked  ~  #nav_slide #dot6{
+    box-shadow: 0px 0px 12px 5px rgb(148, 150, 149);
+}
+#i7:checked  ~  #nav_slide #dot7{
+    box-shadow: 0px 0px 12px 5px rgb(94, 133, 205);
+}
+#i8:checked  ~  #nav_slide #dot8{
+    box-shadow: 0px 0px 12px 5px rgb(127, 223, 224);
+}
+#i9:checked  ~  #nav_slide #dot9{
+    box-shadow: 0px 0px 12px 5px rgb(205, 163, 127);
+}
+#i10:checked  ~  #nav_slide #dot10{
+    box-shadow: 0px 0px 12px 5px rgb(220, 53, 55);
+}
+#i11:checked  ~  #nav_slide #dot11{
+    box-shadow: 0px 0px 12px 5px rgb(170, 52, 56);
+}
+#i12:checked  ~  #nav_slide #dot12{
+    box-shadow: 0px 0px 12px 5px rgb(209, 237, 253);
+}
+#i13:checked  ~  #nav_slide #dot13{
+    box-shadow: 0px 0px 12px 5px rgb(117, 121, 123);
+}
+#i14:checked  ~  #nav_slide #dot14{
+    box-shadow: 0px 0px 12px 5px rgb(53, 141, 255);
+}
+#i15:checked  ~  #nav_slide #dot15{
+    box-shadow: 0px 0px 12px 5px rgb(203, 209, 215);
+}
+#i16:checked  ~  #nav_slide #dot16{
+    box-shadow: 0px 0px 12px 5px rgb(236, 238, 244);
+}
+#i17:checked  ~  #nav_slide #dot17{
+    box-shadow: 0px 0px 12px 5px rgb(250, 138, 64);
+}
+#i18:checked  ~  #nav_slide #dot18{
+    box-shadow: 0px 0px 12px 5px rgb(176, 183, 189);
+}
+#i19:checked  ~  #nav_slide #dot19{
+    box-shadow: 0px 0px 12px 5px white;
+}
+
+
+#dot1{
+    background-image: url(images/airframe-color/color.jpg);
+    background-size: 30px;
+    background-position: center;  
+}
+#dot2{
+    background-image: url(images/airframe-color/color1.jpg);
+    background-size: 30px;
+    background-position: center;
+}
+#dot3{
+    background-image: url(images/airframe-color/color2.jpg);
+    background-size: 30px;
+    background-position: center;
+}
+#dot4{
+    background-image: url(images/airframe-color/color3.jpg);
+    background-size: 30px;
+    background-position: center;
+}
+#dot5{
+    background-image: url(images/airframe-color/color4.jpg);
+    background-size: 30px;
+    background-position: center;
+}
+#dot6{
+    background-image: url(images/airframe-color/color5.jpg);
+    background-size: 30px;
+    background-position: center;
+}
+#dot7{
+    background-image: url(images/airframe-color/color6.jpg);
+    background-size: 30px;
+    background-position: center;
+}
+#dot8{
+    background-image: url(images/airframe-color/color7.jpg);
+    background-size: 30px;
+    background-position: center;
+}
+#dot9{
+    background-image: url(images/airframe-color/color8.jpg);
+    background-size: 30px;
+    background-position: center;
+}
+#dot10{
+    background-image: url(images/airframe-color/color9.jpg);
+    background-size: 32px;
+    background-position: center;
+}
+#dot11{
+    background-image: url(images/airframe-color/color10.jpg);
+    background-size: 32px;
+    background-position: center;
+}
+#dot12{
+    background-image: url(images/airframe-color/color11.jpg);
+    background-size: 30px;
+    background-position: center;
+}
+#dot13{
+    background-image: url(images/airframe-color/color12.jpg);
+    background-size: 30px;
+    background-position: center;
+}
+#dot14{
+    background-image: url(images/airframe-color/color13.jpg);
+    background-size: 30px;
+    background-position: center;
+}
+#dot15{
+    background-image: url(images/airframe-color/color14.jpg);
+    background-size: 30px;
+    background-position: center;
+}
+#dot16{
+    background-image: url(images/airframe-color/color15.jpg);
+    background-size: 30px;
+    background-position: center;
+}
+#dot17{
+    background-image: url(images/airframe-color/color16.jpg);
+    background-size: 30px;
+    background-position: center;
+}
+#dot18{
+    background-image: url(images/airframe-color/color17.jpg);
+    background-size: 30px;
+    background-position: center;
+}
+#dot19{
+    background-image: url(images/airframe-color/color18.jpg);
+    background-size: 30px;
+    background-position: center;
+}
+
+
+.slide_img{
+    z-index: -1;
+}
+
+	#i1:checked ~ #one,
+	#i2:checked ~ #two,
+	#i3:checked ~ #three,
+	#i4:checked ~ #four,
+	#i5:checked ~ #five,
+    #i6:checked ~ #six,
+    #i7:checked ~ #seven,
+    #i8:checked ~ #eight,
+    #i9:checked ~ #nine,
+    #i10:checked ~ #ten,
+    #i11:checked ~ #eleven,
+    #i12:checked ~ #twelve,
+    #i13:checked ~ #thirteen,
+    #i14:checked ~ #fourteen,
+    #i15:checked ~ #fifteen,
+    #i16:checked ~ #sixteen,
+    #i17:checked ~ #seventeen,
+    #i18:checked ~ #eighteen,
+    #i19:checked ~ #nineteen{
+        z-index: 9;
+        
+    }
+
+
+	
+
+
+
+
